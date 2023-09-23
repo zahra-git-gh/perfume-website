@@ -51,8 +51,9 @@ section{
     width: 39vw;
     min-height: 80vh;
     border-radius: 50%;
-    background-image: url(/image/product_photography_blank_parfume_bottle_pink_roses_isolated_clean.jpg);
-    background-position: bottom;
+    background-image: url(/image/composition-with-bottle-female-perfume-close-up_185193-74545.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .cyrcle-1{
     width: 41vw;

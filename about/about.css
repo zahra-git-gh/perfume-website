@@ -1,5 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,200;1,300;1,700&family=Poppins:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,200;1,300;1,700&family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #fbda9d92;
+}
+nav{
+    background-color: #325434;
+    width: 80vw;
+    min-height: 7vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+}
+nav>a{
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: #e0bb76;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+nav>input{
+    border-radius: 5px;
+    border: 1px solid #e75f20df;
+    width: 15vw;
+    min-height: 4vh;
+    text-align: right;
+    font-size: medium;
+}
+input:hover{
+    transition: all, 1s;
+    box-shadow: 2px 2px 2px 1px #ee892f;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#parent{
+    width: 70vw;
+    min-height: 150vh;
+    border: 1px solid black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 10px 10px 5px #e0bb76b7;
+    border-radius: 5% 0 0 5%;
+}
+section>div:not(#div-2){
+    width: 35vw;
+    min-height: 50vh;
+    border-radius: 5% 0 0 5%;
+}
+#div-1{
+    background-image: url(/image/beautiful_luxury_perfume_bottle_process_making_perfumes_woody_fragrance.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #325434;
+}
+#div-2{
+    width: 35vw;
+    min-height: 50vh;
+    background-color: #325434;
+    background-image: url(/image/bottle_lemon_essential_oil_is_alternative_medicine_472916_1838.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #325434;
+    border-radius: 0 5% 5% 0;
+}
+#div-3{
+    background-image: url(/image/selfcare-products-flower-arrangement\ \(3\).jpg);
+    background-size: cover;
+    background-position: bottom;
+    border: 5px solid #325434;
+}
+.part-1{
+    width: 70vw;
+    min-height: 50vh;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.part-2{
+    width: 70vw;
+    min-height: 50vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    
+}
+.part-3{
+    width: 70vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row
+}
+section>p{
+    width: 35vw;
+    align-self: center;
+    padding: 15px;
+    text-align: left;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 400;
+}
+.part-2>p{
+    text-align: right;
+}
+section>h2{
+    align-self: center;
+    background-color: #ee892f;
+    background-color: #325434;
+    color: #ee892f;
+    width: 6vw;
+    box-shadow: 5px 5px 5px #e0bb76;
+}
+.child{
+    /* width: 1vw;
+    min-height: 1vh; */
+    background-color: #325434;
+    opacity: 0;
+}
+/* .ch-1{
+    opacity: 0.3;
+}
+.ch-2{
+    opacity: 0.5;
+}
+.ch-3{
+    opacity: 0.7;
+} */
+.gh-3:hover{
+    
+    .ch-1{
+        width: 32vw;
+    min-height: 17.5vh;
+        opacity: 0.3;
+    }
+    .ch-2{
+        width: 32vw;
+    min-height: 17.5vh;
+        opacity: 0.5;
+    }
+    .ch-3{
+        width: 32vw;
+    min-height: 17.5vh;
+        opacity: 0.7;
+    }
 }
