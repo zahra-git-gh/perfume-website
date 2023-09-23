@@ -3,3 +3,129 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: #ee892f;
+    background-color: #e0bb76;
+    width: 80vw;
+    min-height: 7vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+}
+nav>a{
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: #325434;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+nav>input{
+    border-radius: 5px;
+    border: 1px solid #e75f20df;
+    width: 15vw;
+    min-height: 4vh;
+    text-align: right;
+    font-size: medium;
+}
+input:hover{
+    transition: all, 1s;
+    box-shadow: 2px 2px 2px 1px #ee892f;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 80vw;
+    min-height: 90vh;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 15vw;
+    min-height: 40vh;
+    border: 1px solid black;
+    background-color: #325434;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#box-1{
+    background-image: url(/image/front_view_black_fragrance_designed_with_gold_cap_white_floor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-2{
+    background-image: url(/image/front_view_black_fragrance_with_golden_cap_white_isolated_desk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-3{
+    background-image: url(/image/front_view_brown_bottle_with_fragrance_with_golden_cap_white_desk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-4{
+    background-image: url(/image/front_view_yellow_fragrance_bottle_with_golden_cap_white_wall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-5{
+    background-image: url(/image/front-view-colored-fragrance-designed-isolated-white-floor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-6{
+    background-image: url(/image/IMG_20230921_074615_914.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-7{
+    background-image: url(/image/IMG_20230921_084225_571\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-8{
+    background-image: url(/image/bottle-female-perfume-isolated-white-background_185193-74537.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-9{
+    background-image: url(/image/front-view-bottle-designed-transparent-isolated-white-wall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-10{
+    background-image: url(/image/front_view_purple_silver_bottle_designed_beautiful_isolated_white.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-11{
+    background-image: url(/image/front-view-perfume-bottle-clear-glass-with-cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box-12{
+    background-image: url(/image/front_close_up_view_bottle_perfume_transparent_bronze_isolated_white.jpg);
+    background-size: cover;
+    background-position: center;
+}
