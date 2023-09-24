@@ -1,3 +1,6 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,200;1,300;1,700&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Roboto+Mono:ital@1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,200;1,300;1,700&family=Libre+Baskerville:wght@700&family=Overpass:ital,wght@1,500;1,600;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -41,16 +44,99 @@ input:hover{
     box-shadow: 2px 2px 2px 1px #ee892f;
     
 }
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+    
+  }
+  nav>div{
+      border:1px solid #325434;
+      transition-property: all;
+      transition-duration: 2s;
+  }
+  nav>div:hover {
+      border: 1px solid #325434;
+      transform: rotate(45deg);
+  }
+body{
+    background-color: #325434;
+}
 main{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+.parent-0{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.child-2{
+    width: 25vw;
+    height: 50vh;
+    background-image: url(https://img.freepik.com/premium-photo/perfume-with-floral-aroma-burst-generative-ai_74760-4958.jpg?w=360);
+    background-position: center;
+    border-radius: 10px;
+}
+.child{
+    width: 70vw;
+    min-height: 50vh;
+    background-color: #ebb56e;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+#title{
+    position: absolute;
+    left: 330px;
+    top: 40px;
+    font-size: 60px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Overpass', sans-serif;
+    color: #325434;
+    
+}
+.title-2{
+    position: absolute;
+    left: 330px;
+    top: 120px;
+    font-size: 60px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Overpass', sans-serif;
+    color: #325434;
+    
+}
+.title-3{
+    position: absolute;
+    left: 330px;
+    top: 200px;
+    font-size: 60px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Overpass', sans-serif;
+    color: #325434;
+}
 .parent{
     width: 80vw;
     min-height: 90vh;
-    border: 1px solid black;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -63,11 +149,16 @@ main{
 .card{
     width: 15vw;
     min-height: 40vh;
-    border: 1px solid black;
-    background-color: #325434;
-    margin-left: 15px;
+    margin-left: 40px;
     margin-top: 15px;
     margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end ;
+    align-items:flex-end ;
+    box-shadow: 5px 5px 10px #243c25;
+    border: 2px solid #131f14;
+    border-radius: 10px;
 }
 #box-1{
     background-image: url(/image/front_view_black_fragrance_designed_with_gold_cap_white_floor.jpg);
@@ -129,3 +220,65 @@ main{
     background-size: cover;
     background-position: center;
 }
+.name{
+    width: 14.7vw;
+    height: 50px;
+    background-color: #ee882f80;
+    color: #131f14;
+}
+.name>h1{
+    font-size: medium;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+.name>button{
+    width: 60px;
+    margin-left: 10px;
+    visibility: hidden;
+    opacity: 0;
+    border: 1px solid #ee892f;
+}
+.name>p{
+    margin: 10px;
+    font-size: small;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    visibility: hidden;
+    opacity: 0;
+}
+h1:hover{
+    cursor: pointer;
+}
+.card:hover .name{
+    height: 140px;
+    bottom: 0px;
+    background-color: #ee882f80;
+}
+.name:hover button{
+    visibility: visible;
+    opacity: 1;
+    background-color: #e0bb76cd;
+    color: #131f14;
+}
+button:hover{
+    box-shadow: 2px 2px 5px #ee892f;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover{
+    transform: scale(1.1) rotate(-3deg);
+    box-shadow:5px 5px 18px #0a100a;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* ---------responsive------ */
