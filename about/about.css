@@ -10,6 +10,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 body{
     background-color: #fbda9d92;
