@@ -79,8 +79,8 @@ main{
     margin-top: 50px;
 }
 .child-2{
-    width: 25vw;
-    height: 50vh;
+    min-width: 25vw;
+    min-height: 50vh;
     background-image: url(https://img.freepik.com/premium-photo/perfume-with-floral-aroma-burst-generative-ai_74760-4958.jpg?w=360);
     background-position: center;
     border-radius: 10px;
@@ -94,13 +94,20 @@ main{
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    position: relative;
+    /* position: relative; */
+}
+.parent-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
 }
 #title{
-    position: absolute;
+    /* position: absolute;
     left: 330px;
-    top: 40px;
-    font-size: 60px;
+    top: 40px; */
+    font-size: 80px;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
@@ -110,10 +117,11 @@ main{
     
 }
 .title-2{
-    position: absolute;
+    /* position: absolute;
     left: 330px;
-    top: 120px;
-    font-size: 60px;
+    top: 120px; */
+    
+    font-size: 80px;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
@@ -123,10 +131,10 @@ main{
     
 }
 .title-3{
-    position: absolute;
+    /* position: absolute;
     left: 330px;
-    top: 200px;
-    font-size: 60px;
+    top: 200px; */
+    font-size: 80px;
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
