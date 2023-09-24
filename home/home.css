@@ -65,7 +65,7 @@ section{
     position: relative;
 }
 .cyrcle{
-    width: 39vw;
+    min-width: 39vw;
     min-height: 80vh;
     border-radius: 50%;
     background-image: url(/image/composition-with-bottle-female-perfume-close-up_185193-74545.jpg);
@@ -159,3 +159,231 @@ a:hover{
     text-decoration: underline;
 }
 /* ---------responsive------ */
+@media (min-width:360px) and (max-width:410px){
+    .cyrcle-1{
+        width: 70vw;
+        min-height: 40vh;
+        position: absolute;
+        left: 4rem;
+        top: 35rem;
+        
+    }
+    .cyrcle{
+        width: 70vw;
+        min-height: 40vh;
+        position: absolute;
+        right: 1rem;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p:not(div>p){
+        font-size: small;
+        width: 40vw;
+
+    }
+    #link-2{
+        margin-left: 5rem;
+    }
+    .one {
+        width: 12vw;
+        min-height: 7vh;
+        left: 2rem;
+        top: 35rem;
+    }
+    .two {
+        width: 11vw;
+        min-height: 6.5vh;
+        left: 5rem;
+        top: 33rem;
+    }
+    .three {
+        width: 10vw;
+        min-height: 6vh;
+        left: 8rem;
+        top: 32rem;
+    }
+    .four {
+        width: 9vw;
+        height: 5vh;
+        left: 11rem;
+        top: 32rem;
+    }
+    div>p {
+        text-align: center;
+        color: white;
+        font-size: xx-small;
+        margin-top: 15px
+    }
+}
+@media (min-width:411px) and (max-width:620px){
+    .cyrcle-1{
+        width: 70vw;
+        min-height: 40vh;
+        position: absolute;
+        left: 4rem;
+        top: 45rem;
+        
+    }
+    .cyrcle{
+        width: 70vw;
+        min-height: 40vh;
+        position: absolute;
+        right: 1rem;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p:not(div>p){
+        font-size: large;
+        width: 40vw;
+
+    }
+    #link-2{
+        margin-left: 5rem;
+    }
+    .one {
+        width: 12vw;
+        min-height: 8vh;
+        left: 4rem;
+        top: 43rem;
+    }
+    .two {
+        width: 11vw;
+        min-height: 7vh;
+        left: 7.5rem;
+        top: 41.5rem;
+    }
+    .three {
+        width: 10vw;
+        min-height: 6vh;
+        left: 11rem;
+        top: 41rem;
+    }
+    .four {
+        width: 9vw;
+        height: 5vh;
+        left: 14rem;
+        top: 41.5rem;
+    }
+    div>p {
+        text-align: center;
+        color: white;
+        font-size: small;
+        margin-top: 15px
+    }
+}
+@media (min-width:620px) and (max-width:768px){
+    .cyrcle-1{
+        width: 70vw;
+        min-height: 70vh;
+        position: absolute;
+        left: 4rem;
+        top: 35rem;
+        
+    }
+    .cyrcle{
+        width: 70vw;
+        min-height: 70vh;
+        position: absolute;
+        right: 1rem;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p:not(div>p){
+        font-size: large;
+        width: 40vw;
+
+    }
+    #link-2{
+        margin-left: 5rem;
+    }
+    .one {
+        width: 12vw;
+        min-height: 12vh;
+        left: 4rem;
+        top: 33rem;
+    }
+    .two {
+        width: 11vw;
+        min-height: 11vh;
+        left: 9.5rem;
+        top: 30rem;
+    }
+    .three {
+        width: 10vw;
+        min-height: 10vh;
+        left: 15rem;
+        top: 29rem;
+    }
+    .four {
+        width: 9vw;
+        height: 9vh;
+        left: 20rem;
+        top: 29.5rem;
+    }
+    div>p {
+        text-align: center;
+        color: white;
+        font-size: medium;
+        margin-top: 15px
+    }
+}
+@media (min-width:769px) and (max-width:1364px){
+    .cyrcle-1{
+        width: 40vw;
+        min-height: 70vh;
+        position: absolute;
+        left: 45rem;
+        top: 10rem;
+        
+    }
+    .cyrcle{
+        width: 40vw;
+        min-height: 70vh;
+        position: absolute;
+        right: 1rem;
+    }
+    h1{
+        font-size: 100px;
+    }
+    p:not(div>p){
+        font-size: xx-large;
+        width: 40vw;
+
+    }
+    #link-2{
+        margin-left: 5rem;
+    }
+    .one {
+        width: 8vw;
+        min-height: 14vh;
+        left: 38rem;
+        top: 17rem;
+    }
+    .two {
+        width: 7vw;
+        min-height: 13vh;
+        left: 38rem;
+        top: 24rem;
+    }
+    .three {
+        width: 6vw;
+        min-height: 12vh;
+        left: 39.5rem;
+        top: 31rem;
+    }
+    .four {
+        width: 5vw;
+        height: 10vh;
+        left: 43rem;
+        top: 36rem;
+    }
+    div>p {
+        text-align: center;
+        color: white;
+        font-size: x-large;
+        margin-top: 15px
+    }
+}
